@@ -13,6 +13,7 @@
     "prettier": "^1.16.4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
@@ -20,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint" : "eslint src"
+    "lint": "eslint src"
   },
   "eslintConfig": {
     "extends": "react-app"
