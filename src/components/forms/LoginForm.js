@@ -23,6 +23,7 @@ class LoginForm extends React.Component {
       if(Object.keys(errors).length === 0)
       {
         this.props.submit(this.state.data);
+        this.setState({data:''})
       }
 
   }
